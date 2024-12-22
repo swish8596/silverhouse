@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+body {
+    background: #fff;
+}
+
+.header-box {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+ 
+.header-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.header-list-link {
+font-family: Arial;
+font-weight: 400;
+font-size: 18px;
+text-align: center;
+color: #8c8a8a;
+}
+
+.header-block {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.main-box-left {
+    max-width: 730px;
+    width: 100%;
+    background: #f0f0f0;
+    padding: 50px;
+    height: 500px;
+}
+
+.main-box-right {
+    max-width: 350px;
+    width: 100%;
+    background: #f0f0f0;
+    padding: 50px;
+
+}
+
+.main-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-box-left-title {
+padding-bottom: 25px;
+font-family: 'RB';
+font-weight: 700;
+font-size: 20px;
+color: #4581b7;
+}
+
+.main-box-right-title {
+padding-bottom: 25px;
+font-family: 'RB';
+font-weight: 700;
+font-size: 20px;
+color: #4581b7;
+}
+
+.main-box-left-text {
+font-family: 'RR';
+font-weight: 400;
+font-size: 16px;
+line-height: 169%;
+color: #808080;
+
+}
+
+.main-box-right-text1 {
+    font-family: 'RR';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 169%;
+    color: #808080;
+}
+
+.main-box-right-text2 {
+    font-family: 'RR';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 169%;
+    color: #808080;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.main-box-right-text3 {
+    font-family: 'RR';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 169%;
+    color: #808080;
+}
+
+.footer-box {
+    background: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    padding-top: 30px;
+}   
+
+.footer-box-img {
+    padding: 15px 15px 15px 40px;
+}
+
+.footer-box-text1 {
+font-family: 'RR';
+font-weight: 400;
+font-size: 16px;
+color: #808080;
+padding-top: 46px;
+padding-bottom: 10px;
+}
+
+.footer-box-text2 {
+font-family: 'RR';
+font-weight: 700;
+font-size: 25px;
+color: #808080;
+}
+
+.footer-box-text {
+    padding-right: 40px;
+}
